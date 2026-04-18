@@ -8,6 +8,9 @@ Repos que fueron retirados de la lista porque fueron archivados, deprecados o ya
 
 ## Deprecados
 
+- [ICANE Metadata](https://github.com/icane/icane-metadata) - Cliente Java para el servicio REST de metadatos del ICANE. Retirado a petición del mantenedor.
+- [Vulnerabilidad COVID](https://github.com/icane/vulnerabilidad-covid) - Análisis de vulnerabilidad COVID-19 en Cantabria. Retirado a petición del mantenedor.
+
 ## No cumplen criterios
 
 - [ANJANA](https://github.com/IFCA-Advanced-Computing/anjana) - Herramienta genérica de anonimización de datos, no específica de Cantabria.
