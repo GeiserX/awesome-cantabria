@@ -13,6 +13,9 @@ Repos que fueron retirados de la lista porque fueron archivados, deprecados o ya
 
 ## No cumplen criterios
 
+- [beautifuldict](https://github.com/icane/beautifuldict) - Paquete Python para gestión de diccionarios de configuración. Herramienta genérica, no específica de Cantabria. Trasladado a [awesome-spain](https://github.com/GeiserX/awesome-spain).
+- [ETLStat](https://github.com/icane/etlstat) - Paquete Python de utilidades ETL para oficinas estadísticas. Herramienta genérica, no específica de Cantabria. Trasladado a [awesome-spain](https://github.com/GeiserX/awesome-spain).
+- [pyaxis](https://github.com/icane/pyaxis) - Conversor de formato PC-Axis a Pandas. Herramienta genérica, no específica de Cantabria. Trasladado a [awesome-spain](https://github.com/GeiserX/awesome-spain).
 - [ANJANA](https://github.com/IFCA-Advanced-Computing/anjana) - Herramienta genérica de anonimización de datos, no específica de Cantabria.
 - [deep4downscaling](https://github.com/SantanderMetGroup/deep4downscaling) - Herramienta genérica de downscaling climático con Deep Learning, no específica de Cantabria.
 - [downscaleR](https://github.com/SantanderMetGroup/downscaleR) - Herramienta genérica de downscaling climático, no específica de Cantabria.
