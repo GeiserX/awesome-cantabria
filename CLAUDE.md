@@ -1,4 +1,4 @@
-# AGENTS.md — awesome-cantabria
+# CLAUDE.md — awesome-cantabria
 
 ## Propósito
 
