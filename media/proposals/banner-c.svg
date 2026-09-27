@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <clipPath id="c-clip"><rect width="800" height="200" rx="16"/></clipPath>
+    <linearGradient id="c-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120d0a"/><stop offset="100%" stop-color="#211710"/>
+    </linearGradient>
+    <radialGradient id="c-bulge" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8a6446" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8a6446" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="c-blur"><feGaussianBlur stdDeviation="30"/></filter>
+    <filter id="c-soft"><feGaussianBlur stdDeviation="0.6"/></filter>
+    <radialGradient id="c-ochre" cx="45%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#c85a3a"/><stop offset="70%" stop-color="#a5432b"/><stop offset="100%" stop-color="#7e2f1f"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#c-clip)">
+    <rect width="800" height="200" fill="url(#c-bg)"/>
+    <ellipse cx="630" cy="100" rx="220" ry="120" fill="url(#c-bulge)"/>
+    <ellipse cx="200" cy="30" rx="260" ry="80" fill="#6b4a33" opacity="0.18" filter="url(#c-blur)"/>
+    <ellipse cx="480" cy="190" rx="160" ry="50" fill="#6b4a33" opacity="0.2" filter="url(#c-blur)"/>
+
+    <g filter="url(#c-soft)">
+    <g transform="translate(508,24)">
+      <!-- far legs -->
+      <g fill="#8e3a26" stroke="#170e09" stroke-width="2.6" stroke-linejoin="round">
+        <path d="M192 108 L196 152 L210 152 L208 106 Z"/>
+        <path d="M104 110 L108 152 L122 152 L120 110 Z"/>
+      </g>
+      <g fill="#170e09">
+        <path d="M195 136 L209 136 L210 152 L196 152 Z"/>
+        <path d="M107 136 L121 136 L122 152 L108 152 Z"/>
+      </g>
+      <!-- bison body -->
+      <path d="M14 92 C10 70 22 48 40 36 C56 10 86 2 112 6 C160 14 210 30 246 52 C260 62 258 84 244 100 C248 118 246 136 244 150 L228 152 C228 136 226 120 222 108 C180 120 130 120 96 112 C98 126 98 140 98 150 L82 152 C80 136 78 122 76 110 C66 108 56 104 50 98 C44 108 36 112 28 104 C20 102 14 98 14 92 Z" fill="url(#c-ochre)"/>
+      <!-- lighter shoulder and flank -->
+      <path d="M84 44 C124 32 172 40 212 60 C228 70 238 82 240 92 C220 98 190 96 160 92 C130 86 108 88 96 90 C80 78 74 60 84 44 Z" fill="#d8735a" opacity="0.16"/>
+      <!-- dark mane over hump and back -->
+      <path d="M40 36 C56 10 86 2 112 6 C160 14 210 30 246 52 L236 60 C206 42 164 30 126 26 C104 26 82 32 66 44 L52 50 Z" fill="#170e09" opacity="0.88"/>
+      <g stroke="#170e09" stroke-width="1.8" stroke-linecap="round" fill="none">
+        <path d="M56 40 L52 50 M70 30 L68 40 M88 22 L88 32 M108 20 L110 30 M130 22 L134 32 M154 26 L158 36 M178 32 L184 42 M202 40 L208 50 M226 50 L232 60"/>
+      </g>
+      <!-- beard -->
+      <path d="M28 104 L40 104 L52 100 L60 108 L56 116 L60 126 L50 122 L46 132 L40 124 L34 134 L32 122 L24 126 L28 114 L22 108 Z" fill="#170e09" opacity="0.9"/>
+      <g stroke="#170e09" stroke-width="1.8" stroke-linecap="round" fill="none">
+        <path d="M62 110 L66 120 M70 112 L72 122"/>
+      </g>
+      <!-- black lower legs and hooves -->
+      <g fill="#170e09">
+        <path d="M245 134 L229 136 L228 152 L244 150 Z"/>
+        <path d="M98 134 L82 136 L82 152 L98 150 Z"/>
+      </g>
+      <!-- contour -->
+      <path d="M14 92 C10 70 22 48 40 36 C56 10 86 2 112 6 C160 14 210 30 246 52 C260 62 258 84 244 100 C248 118 246 136 244 150 L228 152 C228 136 226 120 222 108 C180 120 130 120 96 112 C98 126 98 140 98 150 L82 152 C80 136 78 122 76 110 C66 108 56 104 50 98 C44 108 36 112 28 104 C20 102 14 98 14 92 Z" fill="none" stroke="#170e09" stroke-width="3.2" stroke-linejoin="round"/>
+      <!-- horns, ear, eye, nostril, mouth, tail -->
+      <path d="M42 38 C34 28 36 16 46 12 C50 10 54 12 56 16" fill="none" stroke="#170e09" stroke-width="3.4" stroke-linecap="round"/>
+      <path d="M54 32 C50 22 54 12 62 10 C66 9 70 11 72 15" fill="none" stroke="#170e09" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M58 40 C62 34 68 34 70 40" fill="none" stroke="#170e09" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="32" cy="60" r="2.8" fill="#170e09"/>
+      <circle cx="17" cy="88" r="1.6" fill="#170e09"/>
+      <path d="M16 96 C20 98 26 98 30 96" fill="none" stroke="#170e09" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M250 58 C264 66 268 80 262 96" fill="none" stroke="#170e09" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M262 94 L256 104 M262 94 L268 104 M262 94 L264 108" stroke="#170e09" stroke-width="1.8" stroke-linecap="round"/>
+      <!-- engraved lines on the flank -->
+      <path d="M100 66 C134 60 174 66 214 84 M94 92 C128 90 164 90 200 96 M232 76 C240 86 242 96 236 104 M62 62 C58 76 54 88 52 96" fill="none" stroke="#3a1c12" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+    </g>
+    </g>
+    <!-- row of red dots -->
+    <g fill="#b8502f" opacity="0.7">
+      <circle cx="64" cy="168" r="3.2"/><circle cx="79" cy="167" r="3"/><circle cx="93" cy="169" r="3.3"/>
+      <circle cx="108" cy="167" r="2.9"/><circle cx="122" cy="169" r="3.1"/><circle cx="137" cy="168" r="2.8"/><circle cx="151" cy="169" r="3.2"/>
+    </g>
+
+    <text x="60" y="92" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" fill="#f4e7d4" font-weight="700" letter-spacing="0.5">awesome-cantabria</text>
+    <rect x="62" y="108" width="64" height="3" rx="1.5" fill="#b8502f"/>
+    <text x="62" y="136" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#f4e7d4" fill-opacity="0.6" font-weight="400" letter-spacing="3">SOFTWARE OPEN SOURCE PARA CANTABRIA</text>
+  </g>
+</svg>

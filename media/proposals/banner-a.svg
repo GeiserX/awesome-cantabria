@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <clipPath id="a-clip"><rect width="800" height="200" rx="16"/></clipPath>
+    <linearGradient id="a-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/><stop offset="100%" stop-color="#14141f"/>
+    </linearGradient>
+    <linearGradient id="a-shaft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.45"/>
+      <stop offset="40%" stop-color="#fff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="a-brick" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b8683f"/><stop offset="100%" stop-color="#7d3f24"/>
+    </linearGradient>
+    <pattern id="a-sun" width="14" height="14" patternUnits="userSpaceOnUse">
+      <rect width="14" height="14" fill="#2f7d4f"/>
+      <rect width="14" height="14" fill="none" stroke="#1d5234" stroke-width="0.8"/>
+      <g fill="#f0bd3a">
+        <ellipse cx="7" cy="3.2" rx="1.3" ry="2.2"/><ellipse cx="7" cy="10.8" rx="1.3" ry="2.2"/>
+        <ellipse cx="3.2" cy="7" rx="2.2" ry="1.3"/><ellipse cx="10.8" cy="7" rx="2.2" ry="1.3"/>
+        <ellipse cx="4.3" cy="4.3" rx="1.2" ry="2" transform="rotate(-45 4.3 4.3)"/>
+        <ellipse cx="9.7" cy="9.7" rx="1.2" ry="2" transform="rotate(-45 9.7 9.7)"/>
+        <ellipse cx="9.7" cy="4.3" rx="1.2" ry="2" transform="rotate(45 9.7 4.3)"/>
+        <ellipse cx="4.3" cy="9.7" rx="1.2" ry="2" transform="rotate(45 4.3 9.7)"/>
+      </g>
+      <circle cx="7" cy="7" r="2.1" fill="#6b3a1c"/>
+    </pattern>
+    <pattern id="a-check" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#2a6e45"/>
+      <path d="M0 8 H16 M8 0 V16" stroke="#1b4a2e" stroke-width="0.7"/>
+      <g fill="#f0bd3a">
+        <circle cx="4" cy="1.6" r="1.1"/><circle cx="4" cy="6.4" r="1.1"/><circle cx="1.6" cy="4" r="1.1"/><circle cx="6.4" cy="4" r="1.1"/>
+        <circle cx="12" cy="9.6" r="1.1"/><circle cx="12" cy="14.4" r="1.1"/><circle cx="9.6" cy="12" r="1.1"/><circle cx="14.4" cy="12" r="1.1"/>
+      </g>
+      <circle cx="4" cy="4" r="1.4" fill="#6b3a1c"/><circle cx="12" cy="12" r="1.4" fill="#6b3a1c"/>
+    </pattern>
+    <filter id="a-blur"><feGaussianBlur stdDeviation="40"/></filter>
+  </defs>
+  <g clip-path="url(#a-clip)">
+    <rect width="800" height="200" fill="url(#a-bg)"/>
+    <ellipse cx="660" cy="120" rx="190" ry="110" fill="#2f7d4f" opacity="0.22" filter="url(#a-blur)"/>
+    <ellipse cx="160" cy="200" rx="220" ry="90" fill="#f0bd3a" opacity="0.08" filter="url(#a-blur)"/>
+
+    <!-- Sunflower tile frieze -->
+    <rect x="0" y="186" width="800" height="14" fill="url(#a-sun)" opacity="0.9"/>
+    <rect x="0" y="184" width="800" height="2" fill="#f0bd3a" opacity="0.5"/>
+
+    <!-- Villa body -->
+    <g>
+      <path d="M520 184 V118 L586 84 L652 118 V184 Z" fill="url(#a-brick)"/>
+      <path d="M512 120 L586 80 L660 120" fill="none" stroke="#9c4a2c" stroke-width="5" stroke-linejoin="round"/>
+      <rect x="520" y="132" width="132" height="7" fill="url(#a-sun)"/>
+      <rect x="520" y="160" width="132" height="7" fill="url(#a-sun)"/>
+      <g fill="#0d0d14">
+        <path d="M536 184 V150 a5 5 0 0 1 10 0 V184 Z"/>
+        <path d="M556 158 V148 a5 5 0 0 1 10 0 V158 Z"/>
+        <path d="M606 158 V148 a5 5 0 0 1 10 0 V158 Z"/>
+        <path d="M626 184 V150 a5 5 0 0 1 10 0 V184 Z"/>
+        <path d="M576 184 V150 a10 10 0 0 1 20 0 V184 Z"/>
+        <path d="M581 126 V108 a5 5 0 0 1 10 0 V126 Z"/>
+      </g>
+    </g>
+
+    <!-- Tower -->
+    <g>
+      <!-- porch with columns -->
+      <rect x="652" y="138" width="64" height="8" fill="#c79a6a"/>
+      <g fill="#d9b48a">
+        <rect x="655" y="146" width="8" height="38"/>
+        <rect x="671" y="146" width="8" height="38"/>
+        <rect x="689" y="146" width="8" height="38"/>
+        <rect x="705" y="146" width="8" height="38"/>
+      </g>
+      <g fill="#8a5a3a">
+        <rect x="653" y="146" width="12" height="4"/><rect x="669" y="146" width="12" height="4"/>
+        <rect x="687" y="146" width="12" height="4"/><rect x="703" y="146" width="12" height="4"/>
+      </g>
+      <!-- shaft -->
+      <rect x="664" y="54" width="40" height="84" fill="url(#a-check)"/>
+      <rect x="664" y="112" width="40" height="26" fill="#a55a35"/>
+      <rect x="664" y="118" width="40" height="7" fill="url(#a-sun)"/>
+      <rect x="664" y="131" width="40" height="7" fill="url(#a-sun)"/>
+      <rect x="664" y="54" width="40" height="84" fill="url(#a-shaft)"/>
+      <!-- balcony -->
+      <rect x="654" y="48" width="60" height="6" rx="1" fill="#c79a6a"/>
+      <path d="M656 48 V36 H712 V48" fill="none" stroke="#c79a6a" stroke-width="1.6"/>
+      <path d="M662 36 V48 M668 36 V48 M674 36 V48 M680 36 V48 M686 36 V48 M692 36 V48 M698 36 V48 M704 36 V48" stroke="#c79a6a" stroke-width="0.9"/>
+      <!-- templete -->
+      <rect x="667" y="22" width="2.2" height="16" fill="#8a5a3a"/>
+      <rect x="677" y="22" width="2.2" height="16" fill="#8a5a3a"/>
+      <rect x="689" y="22" width="2.2" height="16" fill="#8a5a3a"/>
+      <rect x="699" y="22" width="2.2" height="16" fill="#8a5a3a"/>
+      <path d="M664 23 L676 20 L684 9 L692 20 L704 23 Z" fill="#2f7d4f"/>
+      <path d="M664 23 L676 20 L684 9 L692 20 L704 23" fill="none" stroke="#f0bd3a" stroke-width="1.1" stroke-linejoin="round"/>
+      <path d="M684 9 V4" stroke="#8a5a3a" stroke-width="1.4"/>
+      <circle cx="684" cy="3" r="1.6" fill="#f0bd3a"/>
+    </g>
+
+    <!-- Title -->
+    <text x="60" y="92" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" fill="#ffffff" font-weight="700" letter-spacing="0.5">awesome-cantabria</text>
+    <rect x="62" y="108" width="64" height="3" rx="1.5" fill="#f0bd3a"/>
+    <rect x="132" y="108" width="18" height="3" rx="1.5" fill="#2f7d4f"/>
+    <text x="62" y="136" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.62" font-weight="400" letter-spacing="3">SOFTWARE OPEN SOURCE PARA CANTABRIA</text>
+  </g>
+</svg>
