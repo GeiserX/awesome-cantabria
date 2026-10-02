@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "cantabria",
+  "project_id": "cb54044a-bdc5-426e-94ad-f6f86a3ecfe7"
+}
